@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+  <head>
+    <title>Contact Us</title>
+    <meta charset="UTF-8">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Raleway|Host+Grotesk|Zen+Dots"
+    />
+
+    <style>
+      body {
+        font-family: "Host Grotesk", sans-serif; /* Nav text */
+        margin: 0;
+        background: white;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: Aliceblue;
+        display: flex;
+        align-items: center;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover:not(.active) {
+        background-color: grey;
+      }
+
+      .active {
+        background-color: grey;
+      }
+
+      .logo {
+        margin-left: auto;
+        padding-right: 16px;
+      }
+
+      .logo img {
+        height: 50px;
+      }
+
+      .main-container {
+        display: flex;
+        justify-content: flex-start;
+        padding: 40px;
+        margin-top: 20px;
+      }
+
+      .form-container {
+        width: 60%;
+      }
+
+      .form-row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+      }
+
+      .form-row div {
+        width: 48%;
+        background-color: Aliceblue;
+        padding: 10px;
+        border-radius: 5px;
+        box-sizing: border-box;
+        text-align: left;
+        color: grey;
+        font-size: 12px;
+      }
+
+      .form-full {
+        background-color: Aliceblue;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 20px;
+        text-align: left;
+        color: grey;
+        font-size: 12px;
+        font-family: "Raleway", sans-serif;
+        height: 50px;
+      }
+
+      .form-full.message-box {
+        height: 350px;
+      }
+
+      h1 {
+        font-family: "Zen Dots", sans-serif;
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: black;
+        margin-top: 20px;
+      }
+
+      .big-box {
+        width: 300px; /* Fixed width */
+        height: 480px; /* Fixed height */
+        background-color: Aliceblue;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        justify-content: space-evenly; /* Evenly space images */
+        align-items: flex-start; /* Align items to the left */
+        padding: 20px;
+        text-align: center;
+        margin: auto;
+      }
+
+      .box-photo {
+        width: 60%; /* Adjust image width to make smaller */
+        max-height: 80px; /* Reduce height for smaller images */
+        border-radius: 8px;
+        object-fit: cover;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        margin-left: 10px; /* Move the images slightly inward */
+      }
+
+      .text {
+        margin-left: 115px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#collection">Collection</a></li>
+      <li><a href="#contact us" style="font-weight: bold">Contact Us</a></li>
+      <li class="logo">
+        <img src="logo6.PNG" alt="logo" style="height: 50px" />
+      </li>
+    </ul>
+
+    <div class="main-container">
+      <div class="form-container">
+        <h1>SEND A MESSAGE</h1>
+
+        <div class="form-row">
+          <div>
+            <strong>Name:</strong>
+          </div>
+          <div>
+            <strong>Phone:</strong>
+          </div>
+        </div>
+
+        <div class="form-full">
+          <strong>Email:</strong>
+        </div>
+        <div class="form-full message-box">
+          <strong>Message:</strong>
+        </div>
+      </div>
+
+      <div>
+        <div class="text">
+          <h1>GET IN TOUCH</h1>
+        </div>
+
+        <div class="big-box">
+          <img src="photo1.jpg" alt="Photo 1" class="box-photo" />
+          <img src="photo2.jpg" alt="Photo 2" class="box-photo" />
+          <img src="photo3.jpg" alt="Photo 3" class="box-photo" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
